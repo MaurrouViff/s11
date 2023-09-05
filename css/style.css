@@ -1,0 +1,219 @@
+html, body {
+    height: 100%;
+    font-family: popping, sans-serif;
+}
+* {
+    scroll-behavior: smooth;
+}
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #312f2f 24%, #ffffff 100%);
+    text-align: center;
+}
+
+.nav-item {
+    text-align: center;
+}
+.container {
+    flex-grow: 1;
+
+}
+.navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 24px;
+    text-align: center;
+
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 50px;
+}
+.link {
+    padding: 15px 40px;
+    color: #ff0000;
+    border-radius: 2px;
+    opacity: 0.8;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+.link:hover {
+    opacity: 1;
+}
+.first-section {
+    min-height: 35vh;
+    padding-top: 126px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 90px;
+    background-size: cover;
+}
+.under-section {
+    min-height: 2vh;
+    text-align: center; /* Centrer le contenu horizontalement */
+    padding-bottom: 90px;
+    background-size: cover;
+}
+.under-section .button-link {
+    margin-top: auto;
+    text-align: center;
+
+}
+li {
+    list-style-type: none;
+}
+.second-section {
+
+    background-color: black;
+    min-height: 70vh;
+    padding-top: 126px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 90px;
+    background-size: cover;
+}
+.third-section {
+    background: linear-gradient(135deg, #312f2f 24%, #ffffff 100%);
+    min-height: 70vh;
+    padding-top: 126px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 90px;
+    background-size: cover;
+}
+.logo-icon {
+    width: 250px;
+    height: 250px;
+}
+.policy {
+    color: black;
+    text-align: left;
+
+}
+.gradient-policy {
+    font-size: 20px;
+    letter-spacing: -0.72px;
+    line-height: 1.3;
+    background: linear-gradient(135deg, #316aa4 33%, #7B6BB6 50%, #CE6CC9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #316AA4;
+    font-weight: 600;
+}
+
+.button-link {
+    padding: 15px 40px;
+    background: linear-gradient(135deg, #006466 24%, #186785 50%, #186785 79%, #316AA4 100%);
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    opacity: 0.8;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+.button-link:hover {
+    opacity: 1;
+}
+.white {
+    color: white;
+}
+.logo-gradient {
+    padding-right: 5%;
+    padding-left: 5%;
+    width: 200px;
+    height: 200px;
+}
+.arrow-container {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: cyan;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+    z-index: 1;
+}
+.arrow-container.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+.arrow {
+    color: black;
+    font-size: 24px;
+}
+.nav-item-second {
+    text-align: center;
+}
+.nav-menu-second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18%;
+    margin-right: 50px;
+}
+.nav-item-third {
+    text-align: center;
+}
+.nav-menu-third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16%;
+
+}
+.nav-menu-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14%;
+}
+.nav-item-four {
+    text-align: center;
+}
+.nav-menu-five {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+}
+.nav-item-five {
+    text-align: center;
+}
+.white-opacity {
+    color: white;
+    opacity: 0.8;
+}
+.white-opacity:hover {
+    opacity: 1;
+}
+.logo-third-section {
+    height: 40px;
+    width: 40px;
+}
+.nav-menu-third-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    margin-right: 50px;
+}
+.nav-item-third-section {
+    text-align: center;
+    flex: 1;
+}
